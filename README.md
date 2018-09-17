@@ -1,2 +1,15 @@
 # osm-revert-changesets
-Takes an OSM changeset id and returns back array of reverted changeset ids
+
+#### Usage
+
+`npm install osm-revert-changesets`
+
+```
+const revertChangesets = require('osm-revert-changesets');
+
+revertChangesets('62632427').then((list) => {
+  console.log(list);
+})
+// logs
+[ '62629726' ]
+```

@@ -1,0 +1,26 @@
+{
+  "name": "osm-revert-changesets",
+  "version": "1.0.2",
+  "description": "Finds OSM reverted changeset id's",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoharuss/osm-revert-changesets.git"
+  },
+  "keywords": [
+    "openstreetmap",
+    "osm"
+  ],
+  "author": "Manohar Erikipati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manoharuss/osm-revert-changesets/issues"
+  },
+  "homepage": "https://github.com/manoharuss/osm-revert-changesets#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
